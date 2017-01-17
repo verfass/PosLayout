@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackBlue"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackBlue"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:id="@+id/imageView01"
+            android:layout_width="80dp"
+            app:srcCompat="@drawable/square_logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/application_name"
+            android:textColor="@color/colorFontWhite"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="70dp" />
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/application_desc"
+            android:textColor="@color/colorFontWhite"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackWhite"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        >
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBtnFontWhite"
+            android:background="@color/colorBtnBlue"
+            android:text="Create Account"
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBtnFontBlue"
+            android:background="@color/colorBtnWhite"
+            android:text="Sign In"
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+</LinearLayout>
